@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://win8026.site4now.net:21/site1</_PublishTargetUrl>
+    <History>False|2023-07-03T14:48:53.2270677Z;False|2023-06-13T15:11:11.1637355+02:00;False|2023-06-13T15:09:34.6558604+02:00;False|2023-06-13T13:59:09.7298265+02:00;False|2023-06-13T13:54:30.0337351+02:00;False|2023-06-13T13:42:20.7492213+02:00;False|2023-06-13T13:40:19.9375378+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

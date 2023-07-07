@@ -1,0 +1,620 @@
+2023-07-06 15:01:00.641 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 15:01:00.828 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 15:01:00.829 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 15:01:00.834 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 15:01:00.835 +02:00 [INF] Hosting environment: Development
+2023-07-06 15:01:00.835 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 15:01:01.423 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 15:01:01.809 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 393.2148ms
+2023-07-06 15:01:01.829 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 15:01:01.829 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 15:01:01.835 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 6.0143ms
+2023-07-06 15:01:01.865 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.8578ms
+2023-07-06 15:01:02.333 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 15:01:02.489 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 155.1996ms
+2023-07-06 18:29:29.690 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 18:29:30.450 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 18:29:30.451 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 18:29:30.457 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 18:29:30.458 +02:00 [INF] Hosting environment: Development
+2023-07-06 18:29:30.458 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 18:29:35.497 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 18:29:36.315 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 822.0359ms
+2023-07-06 18:29:37.074 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 18:29:37.079 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 4.8498ms
+2023-07-06 18:29:38.590 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 18:29:38.888 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 298.2263ms
+2023-07-06 18:29:38.956 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 18:29:39.066 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.6996ms
+2023-07-06 18:29:47.780 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne - -
+2023-07-06 18:29:47.837 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.GetAllAsync (MySecrets)'
+2023-07-06 18:29:47.877 +02:00 [INF] Route matched with {action = "GetAll", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync() on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 18:29:48.930 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 18:29:50.860 +02:00 [INF] Executed DbCommand (228ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+2023-07-06 18:29:50.973 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MySecrets.Models.Tajne, MySecrets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 18:29:51.005 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.GetAllAsync (MySecrets) in 3118.6201ms
+2023-07-06 18:29:51.006 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.GetAllAsync (MySecrets)'
+2023-07-06 18:29:51.012 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne - - - 200 - application/json;+charset=utf-8 3231.7226ms
+2023-07-06 18:30:55.594 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7082/api/Tajne/tajne - -
+2023-07-06 18:30:55.597 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.GetAllAsync (MySecrets)'
+2023-07-06 18:30:55.597 +02:00 [INF] Route matched with {action = "GetAll", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync() on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 18:30:55.606 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 18:30:55.788 +02:00 [INF] Executed DbCommand (180ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+2023-07-06 18:30:55.789 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MySecrets.Models.Tajne, MySecrets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 18:30:55.796 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.GetAllAsync (MySecrets) in 198.1701ms
+2023-07-06 18:30:55.796 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.GetAllAsync (MySecrets)'
+2023-07-06 18:30:55.796 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7082/api/Tajne/tajne - - - 200 - application/json;+charset=utf-8 202.1140ms
+2023-07-06 18:32:28.418 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 18:32:28.749 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 18:32:28.750 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 18:32:28.754 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 18:32:28.755 +02:00 [INF] Hosting environment: Development
+2023-07-06 18:32:28.755 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 18:32:29.905 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 18:32:30.371 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 18:32:30.377 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 478.1920ms
+2023-07-06 18:32:30.384 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 12.7119ms
+2023-07-06 18:32:30.410 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 18:32:30.451 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.3499ms
+2023-07-06 18:32:30.793 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 18:32:30.980 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 187.4879ms
+2023-07-06 18:32:37.140 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne - -
+2023-07-06 18:32:37.199 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-07-06 18:32:37.205 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-07-06 18:32:37.206 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne - - - 401 0 - 65.3953ms
+2023-07-06 18:32:47.398 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7082/api/Tajne/tajne - -
+2023-07-06 18:32:47.404 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-07-06 18:32:47.404 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-07-06 18:32:47.408 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7082/api/Tajne/tajne - - - 401 0 - 9.4236ms
+2023-07-06 18:36:05.039 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7082/api/Tajne/tajne - -
+2023-07-06 18:36:05.044 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-07-06 18:36:05.044 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-07-06 18:36:05.044 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7082/api/Tajne/tajne - - - 401 0 - 5.6278ms
+2023-07-06 18:38:04.917 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7082/api/Tajne/tajne - -
+2023-07-06 18:38:04.917 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-07-06 18:38:04.917 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-07-06 18:38:04.917 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7082/api/Tajne/tajne - - - 401 0 - 0.5261ms
+2023-07-06 18:40:16.906 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 18:40:17.093 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 18:40:17.094 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 18:40:17.102 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 18:40:17.103 +02:00 [INF] Hosting environment: Development
+2023-07-06 18:40:17.103 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 18:40:17.648 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 18:40:18.086 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 441.8497ms
+2023-07-06 18:40:18.201 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 18:40:18.201 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 18:40:18.207 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 6.1680ms
+2023-07-06 18:40:18.238 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.5703ms
+2023-07-06 18:40:18.796 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 18:40:18.920 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.0902ms
+2023-07-06 18:40:43.194 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 18:40:43.394 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 18:40:43.395 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 18:40:43.402 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 18:40:43.403 +02:00 [INF] Hosting environment: Development
+2023-07-06 18:40:43.403 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 18:40:43.877 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 18:40:44.270 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 18:40:44.270 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 18:40:44.272 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 398.8696ms
+2023-07-06 18:40:44.274 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 3.6404ms
+2023-07-06 18:40:44.297 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.2776ms
+2023-07-06 18:40:44.619 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 18:40:44.766 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.4198ms
+2023-07-06 18:41:53.552 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 18:41:53.565 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 13.1622ms
+2023-07-06 18:41:53.586 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 18:41:53.587 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 18:41:53.587 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 0.6210ms
+2023-07-06 18:41:53.611 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.9695ms
+2023-07-06 18:41:53.792 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 18:41:53.803 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 10.3350ms
+2023-07-06 18:42:00.210 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne - -
+2023-07-06 18:42:00.254 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-07-06 18:42:00.260 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-07-06 18:42:00.260 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne - - - 401 0 - 50.4642ms
+2023-07-06 18:45:54.635 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 18:45:54.819 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 18:45:54.821 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 18:45:54.830 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 18:45:54.832 +02:00 [INF] Hosting environment: Development
+2023-07-06 18:45:54.832 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 18:45:55.304 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 18:45:55.837 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 536.4179ms
+2023-07-06 18:45:55.858 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 18:45:55.906 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 48.0273ms
+2023-07-06 18:45:55.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 18:45:55.915 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 4.0932ms
+2023-07-06 18:45:56.458 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 18:45:56.650 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 191.2723ms
+2023-07-06 18:46:00.778 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 18:46:00.788 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 9.8754ms
+2023-07-06 18:46:00.808 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 18:46:00.811 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 18:46:00.812 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 0.9711ms
+2023-07-06 18:46:00.835 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.1731ms
+2023-07-06 18:46:01.073 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 18:46:01.085 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 12.8406ms
+2023-07-06 18:46:07.645 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne - -
+2023-07-06 18:46:07.678 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-07-06 18:46:07.682 +02:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-07-06 18:46:07.683 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne - - - 401 0 - 37.9009ms
+2023-07-06 18:46:38.442 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7082/login application/json 58
+2023-07-06 18:46:38.451 +02:00 [INF] CORS policy execution successful.
+2023-07-06 18:46:38.461 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.KorisnikController.Login (MySecrets)'
+2023-07-06 18:46:38.517 +02:00 [INF] Route matched with {action = "Login", controller = "Korisnik"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MySecrets.Dtos.KorisnikDto) on controller MySecrets.Controllers.KorisnikController (MySecrets).
+2023-07-06 18:46:39.760 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 18:46:41.690 +02:00 [INF] Executed DbCommand (237ms) [Parameters=[@__userName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[KorisnickoIme], [k].[Lozinka], [k].[LozinkaKljuc]
+FROM [Korisnici] AS [k]
+WHERE [k].[KorisnickoIme] = @__userName_0
+2023-07-06 18:46:41.922 +02:00 [INF] Executing OkObjectResult, writing value of type 'MySecrets.Dtos.LoginDto'.
+2023-07-06 18:46:41.938 +02:00 [INF] Executed action MySecrets.Controllers.KorisnikController.Login (MySecrets) in 3415.1739ms
+2023-07-06 18:46:41.939 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.KorisnikController.Login (MySecrets)'
+2023-07-06 18:46:41.944 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7082/login application/json 58 - 200 - application/json;+charset=utf-8 3502.2610ms
+2023-07-06 18:46:57.262 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne - -
+2023-07-06 18:46:57.358 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.GetAllAsync (MySecrets)'
+2023-07-06 18:46:57.362 +02:00 [INF] Route matched with {action = "GetAll", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync() on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 18:46:57.492 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 18:46:57.685 +02:00 [INF] Executed DbCommand (185ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+2023-07-06 18:46:57.702 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.GetAllAsync (MySecrets) in 339.6099ms
+2023-07-06 18:46:57.703 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.GetAllAsync (MySecrets)'
+2023-07-06 18:46:57.705 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne - - - 500 - - 443.0006ms
+2023-07-06 18:47:40.373 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 18:47:40.594 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 18:47:40.594 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 18:47:40.603 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 18:47:40.603 +02:00 [INF] Hosting environment: Development
+2023-07-06 18:47:40.603 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 18:47:41.144 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 18:47:41.487 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 18:47:41.487 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 18:47:41.490 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 349.9504ms
+2023-07-06 18:47:41.491 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 3.7127ms
+2023-07-06 18:47:41.519 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.9222ms
+2023-07-06 18:47:42.031 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 18:47:42.180 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 149.7841ms
+2023-07-06 18:48:08.034 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7082/login application/json 58
+2023-07-06 18:48:08.045 +02:00 [INF] CORS policy execution successful.
+2023-07-06 18:48:08.071 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.KorisnikController.Login (MySecrets)'
+2023-07-06 18:48:08.110 +02:00 [INF] Route matched with {action = "Login", controller = "Korisnik"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MySecrets.Dtos.KorisnikDto) on controller MySecrets.Controllers.KorisnikController (MySecrets).
+2023-07-06 18:48:09.064 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 18:48:10.870 +02:00 [INF] Executed DbCommand (226ms) [Parameters=[@__userName_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [k].[Id], [k].[KorisnickoIme], [k].[Lozinka], [k].[LozinkaKljuc]
+FROM [Korisnici] AS [k]
+WHERE [k].[KorisnickoIme] = @__userName_0
+2023-07-06 18:48:11.096 +02:00 [INF] Executing OkObjectResult, writing value of type 'MySecrets.Dtos.LoginDto'.
+2023-07-06 18:48:11.110 +02:00 [INF] Executed action MySecrets.Controllers.KorisnikController.Login (MySecrets) in 2994.4285ms
+2023-07-06 18:48:11.111 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.KorisnikController.Login (MySecrets)'
+2023-07-06 18:48:11.115 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7082/login application/json 58 - 200 - application/json;+charset=utf-8 3081.6396ms
+2023-07-06 18:48:27.712 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne - -
+2023-07-06 18:48:27.782 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.GetAllAsync (MySecrets)'
+2023-07-06 18:48:27.785 +02:00 [INF] Route matched with {action = "GetAll", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync() on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 18:48:27.890 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 18:48:28.076 +02:00 [INF] Executed DbCommand (179ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+2023-07-06 18:48:28.088 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MySecrets.Models.Tajne, MySecrets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 18:48:28.093 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.GetAllAsync (MySecrets) in 308.5617ms
+2023-07-06 18:48:28.094 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.GetAllAsync (MySecrets)'
+2023-07-06 18:48:28.094 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne - - - 200 - application/json;+charset=utf-8 382.0761ms
+2023-07-06 18:51:46.635 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 18:51:46.795 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 18:51:46.796 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 18:51:46.801 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 18:51:46.802 +02:00 [INF] Hosting environment: Development
+2023-07-06 18:51:46.802 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 18:51:47.069 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 18:51:47.623 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 567.7775ms
+2023-07-06 18:51:47.645 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 18:51:47.645 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 18:51:47.651 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 5.8612ms
+2023-07-06 18:51:47.682 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.7117ms
+2023-07-06 18:51:48.073 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 18:51:48.208 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 134.8272ms
+2023-07-06 18:52:25.495 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 18:52:25.662 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 18:52:25.662 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 18:52:25.669 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 18:52:25.670 +02:00 [INF] Hosting environment: Development
+2023-07-06 18:52:25.670 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 18:52:26.069 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 18:52:26.518 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 452.8956ms
+2023-07-06 18:52:26.521 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 18:52:26.521 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 18:52:26.530 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 9.1611ms
+2023-07-06 18:52:26.567 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.0247ms
+2023-07-06 18:52:26.794 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 18:52:26.972 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 177.7164ms
+2023-07-06 18:52:33.907 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 18:52:33.917 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 9.6225ms
+2023-07-06 18:52:33.956 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 18:52:33.957 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 18:52:33.957 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 0.3901ms
+2023-07-06 18:52:33.978 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.7861ms
+2023-07-06 18:52:34.138 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 18:52:34.150 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 11.5336ms
+2023-07-06 18:52:54.965 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne - -
+2023-07-06 18:52:54.997 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.GetAllAsync (MySecrets)'
+2023-07-06 18:52:55.024 +02:00 [INF] Route matched with {action = "GetAll", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync() on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 18:52:55.264 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.GetAllAsync (MySecrets) in 233.5105ms
+2023-07-06 18:52:55.265 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.GetAllAsync (MySecrets)'
+2023-07-06 18:52:55.267 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne - - - 500 - - 302.6565ms
+2023-07-06 18:53:03.984 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7082/api/Tajne/tajne - -
+2023-07-06 18:53:03.985 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.GetAllAsync (MySecrets)'
+2023-07-06 18:53:03.986 +02:00 [INF] Route matched with {action = "GetAll", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllAsync() on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 18:53:03.996 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.GetAllAsync (MySecrets) in 10.5355ms
+2023-07-06 18:53:03.997 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.GetAllAsync (MySecrets)'
+2023-07-06 18:53:03.999 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7082/api/Tajne/tajne - - - 500 - - 15.1671ms
+2023-07-06 19:10:44.326 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 19:10:44.548 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 19:10:44.548 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 19:10:44.553 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 19:10:44.553 +02:00 [INF] Hosting environment: Development
+2023-07-06 19:10:44.554 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 19:10:44.790 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 19:10:45.181 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 395.6983ms
+2023-07-06 19:10:45.186 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 19:10:45.189 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 19:10:45.193 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 3.8458ms
+2023-07-06 19:10:45.220 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.7716ms
+2023-07-06 19:10:45.462 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 19:10:45.604 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.4313ms
+2023-07-06 19:11:12.114 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/1/3/6 - -
+2023-07-06 19:11:12.146 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:11:12.188 +02:00 [INF] Route matched with {action = "Page", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Page(Int32, Int32, Int32) on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 19:11:13.061 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 19:11:13.341 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:11:13.342 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:11:15.116 +02:00 [INF] Executed DbCommand (506ms) [Parameters=[@__id_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+WHERE [t].[IdKorisnika] = @__id_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+2023-07-06 19:11:15.241 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MySecrets.Models.Tajne, MySecrets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 19:11:15.268 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.Page (MySecrets) in 3070.3411ms
+2023-07-06 19:11:15.268 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:11:15.276 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/1/3/6 - - - 200 - application/json;+charset=utf-8 3161.8142ms
+2023-07-06 19:12:04.291 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 19:12:04.463 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 19:12:04.464 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 19:12:04.469 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 19:12:04.470 +02:00 [INF] Hosting environment: Development
+2023-07-06 19:12:04.470 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 19:12:04.615 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 19:12:04.973 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 360.7654ms
+2023-07-06 19:12:04.994 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 19:12:04.994 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 19:12:04.998 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 3.5891ms
+2023-07-06 19:12:05.028 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.2607ms
+2023-07-06 19:12:05.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 19:12:05.557 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.5252ms
+2023-07-06 19:12:10.488 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 19:12:10.498 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 9.6047ms
+2023-07-06 19:12:10.520 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 19:12:10.521 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 19:12:10.521 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 0.6077ms
+2023-07-06 19:12:10.545 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.7840ms
+2023-07-06 19:12:10.712 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 19:12:10.732 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 19.8299ms
+2023-07-06 19:12:22.389 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/1/3/6 - -
+2023-07-06 19:12:22.423 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:12:22.460 +02:00 [INF] Route matched with {action = "Page", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Page(Int32, Int32, Int32) on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 19:12:23.333 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 19:12:23.517 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:12:23.518 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:12:25.414 +02:00 [INF] Executed DbCommand (266ms) [Parameters=[@__id_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+WHERE [t].[IdKorisnika] = @__id_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+2023-07-06 19:12:25.520 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MySecrets.Dtos.TajneDto, MySecrets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 19:12:25.540 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.Page (MySecrets) in 3073.25ms
+2023-07-06 19:12:25.540 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:12:25.546 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/1/3/6 - - - 200 - application/json;+charset=utf-8 3157.1497ms
+2023-07-06 19:13:02.910 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 19:13:03.071 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 19:13:03.072 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 19:13:03.076 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 19:13:03.077 +02:00 [INF] Hosting environment: Development
+2023-07-06 19:13:03.077 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 19:13:03.753 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 19:13:04.110 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 19:13:04.110 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 19:13:04.114 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 3.9708ms
+2023-07-06 19:13:04.114 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 366.1621ms
+2023-07-06 19:13:04.141 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.3169ms
+2023-07-06 19:13:04.376 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 19:13:04.515 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.7545ms
+2023-07-06 19:13:27.991 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/1/3/6 - -
+2023-07-06 19:13:28.034 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:13:28.085 +02:00 [INF] Route matched with {action = "Page", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Page(Int32, Int32, Int32) on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 19:13:29.015 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 19:13:29.290 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:13:29.291 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:13:30.754 +02:00 [INF] Executed DbCommand (225ms) [Parameters=[@__id_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+WHERE [t].[IdKorisnika] = @__id_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+2023-07-06 19:13:30.855 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MySecrets.Dtos.TajneDto, MySecrets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 19:13:30.875 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.Page (MySecrets) in 2783.964ms
+2023-07-06 19:13:30.875 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:13:30.880 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/1/3/6 - - - 200 - application/json;+charset=utf-8 2888.8360ms
+2023-07-06 19:13:48.489 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/2/3/6 - -
+2023-07-06 19:13:48.492 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:13:48.492 +02:00 [INF] Route matched with {action = "Page", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Page(Int32, Int32, Int32) on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 19:13:48.500 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 19:13:48.503 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:13:48.504 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:13:48.692 +02:00 [INF] Executed DbCommand (183ms) [Parameters=[@__id_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+WHERE [t].[IdKorisnika] = @__id_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2023-07-06 19:13:48.703 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MySecrets.Dtos.TajneDto, MySecrets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 19:13:48.704 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.Page (MySecrets) in 211.4378ms
+2023-07-06 19:13:48.704 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:13:48.705 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/2/3/6 - - - 200 - application/json;+charset=utf-8 215.3697ms
+2023-07-06 19:13:58.244 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/1/3/6 - -
+2023-07-06 19:13:58.249 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:13:58.249 +02:00 [INF] Route matched with {action = "Page", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Page(Int32, Int32, Int32) on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 19:13:58.318 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 19:13:58.502 +02:00 [INF] Executed DbCommand (178ms) [Parameters=[@__id_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+WHERE [t].[IdKorisnika] = @__id_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+2023-07-06 19:13:58.503 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MySecrets.Dtos.TajneDto, MySecrets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 19:13:58.504 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.Page (MySecrets) in 254.3925ms
+2023-07-06 19:13:58.504 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:13:58.505 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/1/3/6 - - - 200 - application/json;+charset=utf-8 260.8487ms
+2023-07-06 19:14:14.663 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/1/3/5 - -
+2023-07-06 19:14:14.663 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:14:14.663 +02:00 [INF] Route matched with {action = "Page", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Page(Int32, Int32, Int32) on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 19:14:14.664 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 19:14:14.861 +02:00 [INF] Executed DbCommand (179ms) [Parameters=[@__id_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+WHERE [t].[IdKorisnika] = @__id_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+2023-07-06 19:14:14.862 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MySecrets.Dtos.TajneDto, MySecrets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 19:14:14.863 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.Page (MySecrets) in 199.2969ms
+2023-07-06 19:14:14.863 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:14:14.863 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/1/3/5 - - - 200 - application/json;+charset=utf-8 200.4890ms
+2023-07-06 19:15:19.911 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 19:15:20.127 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 19:15:20.127 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 19:15:20.132 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 19:15:20.133 +02:00 [INF] Hosting environment: Development
+2023-07-06 19:15:20.133 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 19:15:20.359 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 19:15:20.772 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 416.6017ms
+2023-07-06 19:15:20.793 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 19:15:20.793 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 19:15:20.799 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 5.2263ms
+2023-07-06 19:15:20.831 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.5135ms
+2023-07-06 19:15:21.059 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 19:15:21.213 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.1280ms
+2023-07-06 19:15:36.953 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/1/3/8 - -
+2023-07-06 19:15:36.987 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:15:37.024 +02:00 [INF] Route matched with {action = "Page", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Page(Int32, Int32, Int32) on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 19:15:37.899 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 19:15:38.083 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:15:38.084 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:15:39.596 +02:00 [INF] Executed DbCommand (237ms) [Parameters=[@__id_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+WHERE [t].[IdKorisnika] = @__id_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+2023-07-06 19:15:39.648 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MySecrets.Dtos.TajneDto, MySecrets, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-07-06 19:15:39.667 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.Page (MySecrets) in 2635.6938ms
+2023-07-06 19:15:39.667 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:15:39.672 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/1/3/8 - - - 200 - application/json;+charset=utf-8 2718.8714ms
+2023-07-06 19:15:55.027 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/0/3/8 - -
+2023-07-06 19:15:55.033 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:15:55.033 +02:00 [INF] Route matched with {action = "Page", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Page(Int32, Int32, Int32) on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 19:15:55.047 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 19:15:55.291 +02:00 [INF] Executed DbCommand (236ms) [Parameters=[@__id_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+WHERE [t].[IdKorisnika] = @__id_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+2023-07-06 19:15:55.484 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'MySecrets.DataContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): The offset specified in a OFFSET clause may not be negative.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](AAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:c5e97783-0aa4-4a6a-859d-d3b3a4094ec3
+Error Number:10742,State:1,Class:15
+Microsoft.Data.SqlClient.SqlException (0x80131904): The offset specified in a OFFSET clause may not be negative.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](AAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:c5e97783-0aa4-4a6a-859d-d3b3a4094ec3
+Error Number:10742,State:1,Class:15
+2023-07-06 19:15:55.487 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.Data.SqlClient.SqlException'.
+2023-07-06 19:15:55.520 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.Page (MySecrets) in 486.3691ms
+2023-07-06 19:15:55.520 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:15:55.521 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/0/3/8 - - - 500 - application/json;+charset=utf-8 493.2836ms
+2023-07-06 19:16:39.720 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 19:16:39.886 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 19:16:39.887 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 19:16:39.892 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 19:16:39.893 +02:00 [INF] Hosting environment: Development
+2023-07-06 19:16:39.893 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 19:16:40.382 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 19:16:40.861 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 484.9539ms
+2023-07-06 19:16:40.884 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 19:16:40.886 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 19:16:40.892 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 7.8501ms
+2023-07-06 19:16:40.928 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.3973ms
+2023-07-06 19:16:41.048 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 19:16:41.209 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 161.6185ms
+2023-07-06 19:16:59.650 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/0/3/8 - -
+2023-07-06 19:16:59.696 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:16:59.735 +02:00 [INF] Route matched with {action = "Page", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Page(Int32, Int32, Int32) on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 19:17:00.926 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 19:17:01.163 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:17:01.164 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:17:02.789 +02:00 [INF] Executed DbCommand (239ms) [Parameters=[@__id_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+WHERE [t].[IdKorisnika] = @__id_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+2023-07-06 19:17:02.827 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'MySecrets.DataContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): The offset specified in a OFFSET clause may not be negative.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](AAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:fbe6ce0b-f181-4d15-aa99-b41b5c901ce6
+Error Number:10742,State:1,Class:15
+Microsoft.Data.SqlClient.SqlException (0x80131904): The offset specified in a OFFSET clause may not be negative.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](AAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:fbe6ce0b-f181-4d15-aa99-b41b5c901ce6
+Error Number:10742,State:1,Class:15
+2023-07-06 19:17:02.850 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.Data.SqlClient.SqlException'.
+2023-07-06 19:17:02.903 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.Page (MySecrets) in 3160.5603ms
+2023-07-06 19:17:02.903 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:17:02.925 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Serialization and deserialization of 'System.Reflection.MethodBase' instances are not supported. Path: $.TargetSite.
+ ---> System.NotSupportedException: Serialization and deserialization of 'System.Reflection.MethodBase' instances are not supported.
+   at System.Text.Json.Serialization.Converters.UnsupportedTypeConverter`1.Write(Utf8JsonWriter writer, T value, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ThrowNotSupportedException(WriteStack& state, NotSupportedException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-07-06 19:17:02.940 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/0/3/8 - - - 500 - text/plain;+charset=utf-8 3289.4926ms
+2023-07-06 19:17:26.829 +02:00 [INF] User profile is available. Using 'C:\Users\Kile\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-06 19:17:27.002 +02:00 [INF] Now listening on: https://localhost:7082
+2023-07-06 19:17:27.002 +02:00 [INF] Now listening on: http://localhost:5152
+2023-07-06 19:17:27.008 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-06 19:17:27.009 +02:00 [INF] Hosting environment: Development
+2023-07-06 19:17:27.009 +02:00 [INF] Content root path: C:\Users\Kile\Desktop\Napredne baze podataka\NBP_MySecret\Backend\MySecrets\MySecrets\
+2023-07-06 19:17:27.343 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/index.html - -
+2023-07-06 19:17:27.829 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_vs/browserLink - -
+2023-07-06 19:17:27.829 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - -
+2023-07-06 19:17:27.833 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/index.html - - - 200 - text/html;charset=utf-8 498.3638ms
+2023-07-06 19:17:27.834 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 4.3768ms
+2023-07-06 19:17:27.863 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.1132ms
+2023-07-06 19:17:28.103 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - -
+2023-07-06 19:17:28.258 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.9989ms
+2023-07-06 19:17:41.296 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/0/3/8 - -
+2023-07-06 19:17:41.336 +02:00 [INF] Executing endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:17:41.383 +02:00 [INF] Route matched with {action = "Page", controller = "Tajne"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Page(Int32, Int32, Int32) on controller MySecrets.Controllers.TajneController (MySecrets).
+2023-07-06 19:17:42.402 +02:00 [INF] Entity Framework Core 6.0.0 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.0' with options: None
+2023-07-06 19:17:42.657 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:17:42.658 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-07-06 19:17:44.234 +02:00 [INF] Executed DbCommand (267ms) [Parameters=[@__id_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IdKorisnika], [t].[Password], [t].[Type], [t].[URL], [t].[Username]
+FROM [Tajne] AS [t]
+WHERE [t].[IdKorisnika] = @__id_0
+ORDER BY (SELECT 1)
+OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+2023-07-06 19:17:44.274 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'MySecrets.DataContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): The offset specified in a OFFSET clause may not be negative.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](AAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:59bc9e87-22e4-48d1-bc4e-23dc15c2184e
+Error Number:10742,State:1,Class:15
+Microsoft.Data.SqlClient.SqlException (0x80131904): The offset specified in a OFFSET clause may not be negative.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](AAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:59bc9e87-22e4-48d1-bc4e-23dc15c2184e
+Error Number:10742,State:1,Class:15
+2023-07-06 19:17:44.299 +02:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.Data.SqlClient.SqlException'.
+2023-07-06 19:17:44.338 +02:00 [INF] Executed action MySecrets.Controllers.TajneController.Page (MySecrets) in 2950.676ms
+2023-07-06 19:17:44.339 +02:00 [INF] Executed endpoint 'MySecrets.Controllers.TajneController.Page (MySecrets)'
+2023-07-06 19:17:44.346 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7082/api/Tajne/tajne/Page/0/3/8 - - - 500 - application/json;+charset=utf-8 3049.4732ms

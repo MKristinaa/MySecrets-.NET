@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MySecrets",
+    "\\MySecrets\\MySecrets",
+    "\\MySecrets\\MySecrets\\Controllers",
+    "\\MySecrets\\MySecrets\\Repo"
+  ],
+  "SelectedNode": "\\MySecrets\\MySecrets\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
