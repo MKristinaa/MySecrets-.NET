@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MySecrets")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3562f4411f98279f0f37d2c3ebacdeb7b0ff3e56")]
 [assembly: System.Reflection.AssemblyProductAttribute("MySecrets")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MySecrets")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,647 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\repo\\korisnikrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\repo\\korisnikrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\repo\\tajnerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\repo\\tajnerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\controllers\\tajnecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\controllers\\tajnecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\controllers\\korisnikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\handlers\\getbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\handlers\\getbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\handlers\\getaschandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\handlers\\getaschandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\queries\\getbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\queries\\getbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\queries\\getascquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\queries\\getascquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\interfaces\\itajnerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\interfaces\\itajnerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\commands\\createtajnecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\commands\\createtajnecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\models\\tajne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\models\\tajne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\handlers\\createtajnehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\handlers\\createtajnehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\handlers\\getdeschandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\handlers\\getdeschandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\handlers\\getallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\handlers\\getallhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\handlers\\getpagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\handlers\\getpagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\queries\\getdescquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\queries\\getdescquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\dtos\\tajnedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\dtos\\tajnedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\queries\\getpagequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\queries\\getpagequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\queries\\searchpostquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\queries\\searchpostquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\handlers\\searchposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\handlers\\searchposthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\queries\\getallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\queries\\getallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\dtos\\gettajnedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\dtos\\gettajnedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\dtos\\korisnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\dtos\\korisnikdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\interfaces\\ikorisnikrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\interfaces\\ikorisnikrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\mapping\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\mapping\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\models\\korisnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\migrations\\20230607135730_treca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\migrations\\20230607135730_treca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\migrations\\20230607133820_druga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\migrations\\20230607133820_druga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|c:\\users\\krist\\onedrive\\desktop\\projekti\\mysecrets\\mysecrets-.net\\mysecrets\\mysecrets\\migrations\\20251203225844_firsttttt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B309B8BB-F6A1-492D-BCA2-01D2B4D5FA06}|MySecrets\\MySecrets.csproj|solutionrelative:mysecrets\\migrations\\20251203225844_firsttttt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TajneController.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Controllers\\TajneController.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Controllers\\TajneController.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Controllers\\TajneController.cs",
+              "RelativeToolTip": "MySecrets\\Controllers\\TajneController.cs",
+              "ViewState": "AQIAAEMAAACALzMzM3MlwDcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Program.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Program.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Program.cs",
+              "RelativeToolTip": "MySecrets\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\appsettings.json",
+              "RelativeDocumentMoniker": "MySecrets\\appsettings.json",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\appsettings.json",
+              "RelativeToolTip": "MySecrets\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T14:58:05.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TajneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Repo\\TajneRepository.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Repo\\TajneRepository.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Repo\\TajneRepository.cs",
+              "RelativeToolTip": "MySecrets\\Repo\\TajneRepository.cs",
+              "ViewState": "AQIAADUAAAAArZmZmZkGwB4AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "MySecrets\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KorisnikController.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Controllers\\KorisnikController.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Controllers\\KorisnikController.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Controllers\\KorisnikController.cs",
+              "RelativeToolTip": "MySecrets\\Controllers\\KorisnikController.cs",
+              "ViewState": "AQIAABkAAAAAX2ZmZmYbwCMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KorisnikRepository.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Repo\\KorisnikRepository.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Repo\\KorisnikRepository.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Repo\\KorisnikRepository.cs",
+              "RelativeToolTip": "MySecrets\\Repo\\KorisnikRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetASCQuery.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Queries\\GetASCQuery.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Queries\\GetASCQuery.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Queries\\GetASCQuery.cs",
+              "RelativeToolTip": "MySecrets\\Queries\\GetASCQuery.cs",
+              "ViewState": "AQIAAAEAAAAYmpmZmVkqwA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateTajneCommand.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Commands\\CreateTajneCommand.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Commands\\CreateTajneCommand.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Commands\\CreateTajneCommand.cs",
+              "RelativeToolTip": "MySecrets\\Commands\\CreateTajneCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20251203225844_firsttttt.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Migrations\\20251203225844_firsttttt.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Migrations\\20251203225844_firsttttt.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Migrations\\20251203225844_firsttttt.cs",
+              "RelativeToolTip": "MySecrets\\Migrations\\20251203225844_firsttttt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T22:58:46.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetASCHandler.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\GetASCHandler.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Handlers\\GetASCHandler.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\GetASCHandler.cs",
+              "RelativeToolTip": "MySecrets\\Handlers\\GetASCHandler.cs",
+              "ViewState": "AQIAAAMAAACAAAAAAMAtwBcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetById.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Queries\\GetById.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Queries\\GetById.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Queries\\GetById.cs",
+              "RelativeToolTip": "MySecrets\\Queries\\GetById.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\GetByIdHandler.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Handlers\\GetByIdHandler.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\GetByIdHandler.cs",
+              "RelativeToolTip": "MySecrets\\Handlers\\GetByIdHandler.cs",
+              "ViewState": "AQIAAAIAAACAmZmZmRkWwBYAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Tajne.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Models\\Tajne.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Models\\Tajne.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Models\\Tajne.cs",
+              "RelativeToolTip": "MySecrets\\Models\\Tajne.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITajneRepository.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Interfaces\\ITajneRepository.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Interfaces\\ITajneRepository.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Interfaces\\ITajneRepository.cs",
+              "RelativeToolTip": "MySecrets\\Interfaces\\ITajneRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateTajneHandler.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\CreateTajneHandler.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Handlers\\CreateTajneHandler.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\CreateTajneHandler.cs",
+              "RelativeToolTip": "MySecrets\\Handlers\\CreateTajneHandler.cs",
+              "ViewState": "AQIAAAcAAACgzMzMzMwnwBsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetDescHandler.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\GetDescHandler.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Handlers\\GetDescHandler.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\GetDescHandler.cs",
+              "RelativeToolTip": "MySecrets\\Handlers\\GetDescHandler.cs",
+              "ViewState": "AQIAAAYAAABQMzMzM5MwwBMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetAllHandler.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\GetAllHandler.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Handlers\\GetAllHandler.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\GetAllHandler.cs",
+              "RelativeToolTip": "MySecrets\\Handlers\\GetAllHandler.cs",
+              "ViewState": "AQIAAAAAAADgZmZmZmYEwBIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GetPageHandler.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\GetPageHandler.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Handlers\\GetPageHandler.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\GetPageHandler.cs",
+              "RelativeToolTip": "MySecrets\\Handlers\\GetPageHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetDescQuery.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Queries\\GetDescQuery.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Queries\\GetDescQuery.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Queries\\GetDescQuery.cs",
+              "RelativeToolTip": "MySecrets\\Queries\\GetDescQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetPageQuery.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Queries\\GetPageQuery.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Queries\\GetPageQuery.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Queries\\GetPageQuery.cs",
+              "RelativeToolTip": "MySecrets\\Queries\\GetPageQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TajneDto.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Dtos\\TajneDto.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Dtos\\TajneDto.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Dtos\\TajneDto.cs",
+              "RelativeToolTip": "MySecrets\\Dtos\\TajneDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SearchPostQuery.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Queries\\SearchPostQuery.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Queries\\SearchPostQuery.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Queries\\SearchPostQuery.cs",
+              "RelativeToolTip": "MySecrets\\Queries\\SearchPostQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SearchPostHandler.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\SearchPostHandler.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Handlers\\SearchPostHandler.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Handlers\\SearchPostHandler.cs",
+              "RelativeToolTip": "MySecrets\\Handlers\\SearchPostHandler.cs",
+              "ViewState": "AQIAAAQAAACAMzMzMzMrwA0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetAllQuery.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Queries\\GetAllQuery.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Queries\\GetAllQuery.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Queries\\GetAllQuery.cs",
+              "RelativeToolTip": "MySecrets\\Queries\\GetAllQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetTajneDto.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Dtos\\GetTajneDto.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Dtos\\GetTajneDto.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Dtos\\GetTajneDto.cs",
+              "RelativeToolTip": "MySecrets\\Dtos\\GetTajneDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "KorisnikDto.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Dtos\\KorisnikDto.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Dtos\\KorisnikDto.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Dtos\\KorisnikDto.cs",
+              "RelativeToolTip": "MySecrets\\Dtos\\KorisnikDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "MySecrets\\Dtos\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "MySecrets\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "MySecrets\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAAwAAACA/////38gwCUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IKorisnikRepository.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Interfaces\\IKorisnikRepository.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Interfaces\\IKorisnikRepository.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Interfaces\\IKorisnikRepository.cs",
+              "RelativeToolTip": "MySecrets\\Interfaces\\IKorisnikRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Mapping\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Mapping\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Mapping\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "MySecrets\\Mapping\\AutoMapperProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "MySecrets\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\UnitOfWork.cs",
+              "RelativeToolTip": "MySecrets\\UnitOfWork.cs",
+              "ViewState": "AQIAAAEAAACAz8zMzMwHwBEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\DataContext.cs",
+              "RelativeDocumentMoniker": "MySecrets\\DataContext.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\DataContext.cs",
+              "RelativeToolTip": "MySecrets\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Korisnik.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Models\\Korisnik.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Models\\Korisnik.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Models\\Korisnik.cs",
+              "RelativeToolTip": "MySecrets\\Models\\Korisnik.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20230607135730_Treca.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Migrations\\20230607135730_Treca.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Migrations\\20230607135730_Treca.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Migrations\\20230607135730_Treca.cs",
+              "RelativeToolTip": "MySecrets\\Migrations\\20230607135730_Treca.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20230607133820_Druga.cs",
+              "DocumentMoniker": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Migrations\\20230607133820_Druga.cs",
+              "RelativeDocumentMoniker": "MySecrets\\Migrations\\20230607133820_Druga.cs",
+              "ToolTip": "C:\\Users\\krist\\OneDrive\\Desktop\\Projekti\\MySecrets\\MySecrets-.NET\\MySecrets\\MySecrets\\Migrations\\20230607133820_Druga.cs",
+              "RelativeToolTip": "MySecrets\\Migrations\\20230607133820_Druga.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T14:58:05.582Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
